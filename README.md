@@ -27,9 +27,7 @@ API
   |---- CustomData.py
   |---- encoding.py
   |---- mlapi.py
-  |---- api_requirements.txt
-  |---- ml_files/model.pkl
-  |---- ml_files/.gitattributes
+  |---- requirements.txt
 ```
 **NOTE:**
 After trying to host on multiple platforms, <a href = "https://render.com/">Render</a> finally worked. 
@@ -52,9 +50,7 @@ I use MiniConda and Jupyter Notebook to develop ML Model. These files are used f
 ```
 ML Model
  |---- ml_files
-          |---- .gitattributes
           |---- data.csv
-          |---- model.pkl
           |---- notebook.ipynb
 ```
 # For More Details 
