@@ -17,7 +17,8 @@
 
 # To test the API on Postman
 **GET** ```http://127.0.0.1:8000```
-Under BODY-> RAW set to JSON 
+
+*Under BODY-> RAW set to JSON*
 ```
 {
     "Year" : 2020, 
