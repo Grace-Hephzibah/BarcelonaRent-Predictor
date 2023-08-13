@@ -12,8 +12,8 @@ from encoding import *
 # Initializing the app
 app = FastAPI()
 # Old plan path = "ml_files/model.pkl"
-#https://drive.google.com/file/d/11qM7bVXQHrXQq-xFXSi7wcKlgU3kmyJb/view?usp=sharing
-url = "https://drive.google.com/uc?id=11qM7bVXQHrXQq-xFXSi7wcKlgU3kmyJb"
+#https://drive.google.com/file/d/1RAfFlqyxWkBCTk-eF1NtJ55bnBTcXy6t/view?usp=sharing
+url = "https://drive.google.com/uc?id=1RAfFlqyxWkBCTk-eF1NtJ55bnBTcXy6t"
 output = "ml_files/output.pkl"
 gdown.download(url, output, quiet=False)
 
