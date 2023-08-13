@@ -5,10 +5,10 @@ price predictions through a FastAPI-powered ML model and an engaging Streamlit f
 - #### <a href = "https://www.kaggle.com/code/gracehephzibahm/prediction-of-rent-prices-in-barcelona"> Kaggle Notebook </a>
 
 # Objective 
-Embark on a journey to redefine how Barcelona's rental market is understood and navigated. Our objective is to develop a comprehensive and accurate 
+Embark on a journey to redefine how Barcelona's rental market is understood and navigated. The objective is to develop a comprehensive and accurate 
 prediction solution that empowers property owners, tenants, and real estate enthusiasts with the insights needed to make confident decisions. Through 
-the synergy of advanced machine learning, streamlined API accessibility, and an interactive frontend, our goal is to achieve a new standard of 0.98 
-R-squared accuracy, illuminating the path to informed choices and optimal rental pricing. Join us in reshaping the future of Barcelona's real estate 
+the synergy of advanced machine learning, streamlined API accessibility, and an interactive frontend, the goal is to achieve a new standard of 0.98 
+R-squared accuracy, illuminating the path to informed choices and optimal rental pricing. Here is the future of Barcelona's real estate 
 landscape with data-driven innovation.
 
 # Skills
