@@ -1,7 +1,7 @@
 # BarcelonaRent-Predictor
 Elevate your Barcelona rental experience with this project: a fusion of AI and user-friendly design, offering 98% accurate 
 price predictions through a FastAPI-powered ML model and an engaging Streamlit frontend.
-- #### <a href = "https://barcelona-rent-predictor.onrender.com"> barcelona-rent-predictor API </a>
+- #### <a href = "https://barcelona-rent-predictor.onrender.com/docs"> barcelona-rent-predictor API </a>
 - #### <a href = "https://www.kaggle.com/code/gracehephzibahm/prediction-of-rent-prices-in-barcelona"> Kaggle Notebook </a>
 
 # Objective 
