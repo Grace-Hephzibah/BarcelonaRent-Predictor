@@ -38,7 +38,6 @@ Few common issues that rise while hosting on render are
 
 - Version of Scikit Learn on Render is only upto 1.0.2. Therefore it created a problem when my pickled version was from scikit-learn version 1.3.0
 - In local hosting I used ```uvicorn mlapi:app --reload```. But in render hosting, the start command was ```uvicorn mlapi:app --host 0.0.0.0 --port $PORT```
-- The build command is ```pip install -r api_requirements.txt```
 
 ## Streamlit 
 These files are were used for hosting. 
