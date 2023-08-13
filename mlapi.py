@@ -2,6 +2,8 @@
 from fastapi import FastAPI
 import pickle
 import numpy as np 
+import requests 
+import gdown
 
 # Custom Files 
 from customData import *
@@ -9,7 +11,13 @@ from encoding import *
 
 # Initializing the app
 app = FastAPI()
-with open("ml_files/model.pkl", "rb") as f:
+# Old plan path = "ml_files/model.pkl"
+#https://drive.google.com/file/d/11qM7bVXQHrXQq-xFXSi7wcKlgU3kmyJb/view?usp=sharing
+url = "https://drive.google.com/uc?id=11qM7bVXQHrXQq-xFXSi7wcKlgU3kmyJb"
+output = "ml_files/output.pkl"
+gdown.download(url, output, quiet=False)
+
+with open("ml_files/output.pkl", "rb") as f:
     model = pickle.load(f)
 
 
