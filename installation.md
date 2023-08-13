@@ -6,7 +6,7 @@
 ## Step 1: Clone The Repo
 ## Step 2: Install The Libraries 
 - Visual Studio Code [Prefarabbly On Virtual Environment]
-```pip install fastapi gunicorn numpy pandas pydantic scikit-learn streamlit uvicorn ```
+```pip install fastapi gunicorn numpy pandas pydantic scikit-learn streamlit uvicorn gdown```
 
 - Mini Conda [Optional - Do this if you want to run the ml_files/notebook.ipynb]
 ```conda install matplotlib notebook numpy pandas scikit-learn==1.0.1 seaborn```
